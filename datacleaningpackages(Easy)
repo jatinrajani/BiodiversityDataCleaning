@@ -1,0 +1,16 @@
+Packages for Data Cleaning
+ a.)package:Biogeo
+    functioun:Quick Cleaning
+    Usage:quickclean(world,dat, ID = "ID", Species = "Species", x = "x",
+          y = "y", countries = "", others = "", res, msk, ext)
+    It performs a country mismatch check if the country field is particularly specified.It performs a check if records are at particular position .
+    It flags duplicate records.
+
+  b.)package::Gbif
+    functioun:gbifmap
+    Usage:gbifmap(input = NULL, mapdatabase = "world", region = ".", geom = getom_point, jitter = NULL, customize = NULL)
+    Gbif map takes care of cleaning up data frame retun from gbif functiouns and creating map.
+
+  c.)Package:scrubr
+
+  d.)Package:taxize
